@@ -539,7 +539,7 @@ function App() {
       <header data-html2canvas-ignore="true" className="sticky top-0 z-40 flex flex-col md:flex-row items-center justify-between gap-6 mb-8 pb-4 border-b bg-white/90 backdrop-blur-md md:-mx-8 md:px-8 md:-mt-8 md:pt-8">
         <div className="text-center md:text-left">
           <h1 className="m-0 text-3xl font-bold text-slate-800 md:text-5xl">L10 MEETING</h1>
-          <p className="m-0 text-lg font-semibold text-aksana-accent md:text-xl">ORTLER</p>
+          <p className="m-0 text-lg font-semibold text-aksana-accent md:text-xl">MUTIF CORP</p>
         </div>
         <div className="flex items-center gap-4 border px-6 py-3 rounded-2xl border-slate-200 bg-white shadow-sm">
           <div className="flex items-center gap-3 text-2xl font-mono font-bold text-aksana-accent">
