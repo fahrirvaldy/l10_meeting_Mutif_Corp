@@ -693,7 +693,7 @@ function App() {
                     </tr>
                   </thead>
                   <tbody>
-                    {data[kpiCategory.key].map((item, i) => (
+                    {(data[kpiCategory.key] || []).map((item, i)=> (
                       <tr key={i} className="group">
                         <td><Editable value={item.kpi} onChange={(val) => updateListItem(kpiCategory.key, i, 'kpi', val)} /></td>
                         <td><Editable value={item.target} onChange={(val) => updateListItem(kpiCategory.key, i, 'target', val)} /></td>
